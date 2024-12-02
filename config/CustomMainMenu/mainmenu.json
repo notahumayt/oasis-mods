@@ -1,0 +1,139 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "oasis:logo.png",
+            "posX" : -137,
+            "posY" : 30,
+            "width" : 256,
+            "height" : 70,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : 48,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -100,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 2,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : -124,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -154,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 90,
+            "posY" : 70,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : "file:oasis:splashes.txt"
+        },
+        
+        "background":
+        {
+            "image" : "",
+			"slideshow":
+			{
+				"images" : ["oasis:bkg/ezgif-frame-001.png","oasis:bkg/ezgif-frame-002.png","oasis:bkg/ezgif-frame-003.png","oasis:bkg/ezgif-frame-004.png","oasis:bkg/ezgif-frame-005.png","oasis:bkg/ezgif-frame-006.png","oasis:bkg/ezgif-frame-007.png","oasis:bkg/ezgif-frame-008.png","oasis:bkg/ezgif-frame-009.png","oasis:bkg/ezgif-frame-010.png","oasis:bkg/ezgif-frame-011.png","oasis:bkg/ezgif-frame-012.png","oasis:bkg/ezgif-frame-013.png","oasis:bkg/ezgif-frame-014.png","oasis:bkg/ezgif-frame-015.png","oasis:bkg/ezgif-frame-016.png","oasis:bkg/ezgif-frame-017.png","oasis:bkg/ezgif-frame-018.png","oasis:bkg/ezgif-frame-019.png","oasis:bkg/ezgif-frame-020.png","oasis:bkg/ezgif-frame-021.png","oasis:bkg/ezgif-frame-022.png","oasis:bkg/ezgif-frame-023.png","oasis:bkg/ezgif-frame-024.png","oasis:bkg/ezgif-frame-025.png","oasis:bkg/ezgif-frame-026.png","oasis:bkg/ezgif-frame-027.png","oasis:bkg/ezgif-frame-028.png","oasis:bkg/ezgif-frame-029.png","oasis:bkg/ezgif-frame-030.png","oasis:bkg/ezgif-frame-031.png","oasis:bkg/ezgif-frame-032.png","oasis:bkg/ezgif-frame-033.png","oasis:bkg/ezgif-frame-034.png","oasis:bkg/ezgif-frame-035.png","oasis:bkg/ezgif-frame-036.png","oasis:bkg/ezgif-frame-037.png","oasis:bkg/ezgif-frame-038.png","oasis:bkg/ezgif-frame-039.png","oasis:bkg/ezgif-frame-040.png","oasis:bkg/ezgif-frame-041.png","oasis:bkg/ezgif-frame-042.png","oasis:bkg/ezgif-frame-043.png","oasis:bkg/ezgif-frame-044.png","oasis:bkg/ezgif-frame-045.png","oasis:bkg/ezgif-frame-046.png","oasis:bkg/ezgif-frame-047.png","oasis:bkg/ezgif-frame-048.png","oasis:bkg/ezgif-frame-049.png","oasis:bkg/ezgif-frame-050.png","oasis:bkg/ezgif-frame-051.png","oasis:bkg/ezgif-frame-052.png","oasis:bkg/ezgif-frame-053.png","oasis:bkg/ezgif-frame-054.png","oasis:bkg/ezgif-frame-055.png","oasis:bkg/ezgif-frame-056.png","oasis:bkg/ezgif-frame-057.png","oasis:bkg/ezgif-frame-058.png","oasis:bkg/ezgif-frame-059.png","oasis:bkg/ezgif-frame-060.png","oasis:bkg/ezgif-frame-061.png","oasis:bkg/ezgif-frame-062.png","oasis:bkg/ezgif-frame-063.png","oasis:bkg/ezgif-frame-064.png","oasis:bkg/ezgif-frame-065.png","oasis:bkg/ezgif-frame-066.png","oasis:bkg/ezgif-frame-067.png","oasis:bkg/ezgif-frame-068.png","oasis:bkg/ezgif-frame-069.png","oasis:bkg/ezgif-frame-070.png","oasis:bkg/ezgif-frame-071.png","oasis:bkg/ezgif-frame-072.png","oasis:bkg/ezgif-frame-073.png","oasis:bkg/ezgif-frame-074.png","oasis:bkg/ezgif-frame-075.png","oasis:bkg/ezgif-frame-076.png","oasis:bkg/ezgif-frame-077.png","oasis:bkg/ezgif-frame-078.png","oasis:bkg/ezgif-frame-079.png","oasis:bkg/ezgif-frame-080.png","oasis:bkg/ezgif-frame-081.png","oasis:bkg/ezgif-frame-082.png","oasis:bkg/ezgif-frame-083.png","oasis:bkg/ezgif-frame-084.png","oasis:bkg/ezgif-frame-085.png","oasis:bkg/ezgif-frame-086.png","oasis:bkg/ezgif-frame-087.png","oasis:bkg/ezgif-frame-088.png","oasis:bkg/ezgif-frame-089.png","oasis:bkg/ezgif-frame-090.png","oasis:bkg/ezgif-frame-091.png","oasis:bkg/ezgif-frame-092.png","oasis:bkg/ezgif-frame-093.png","oasis:bkg/ezgif-frame-094.png","oasis:bkg/ezgif-frame-095.png","oasis:bkg/ezgif-frame-096.png","oasis:bkg/ezgif-frame-097.png","oasis:bkg/ezgif-frame-098.png","oasis:bkg/ezgif-frame-099.png","oasis:bkg/ezgif-frame-100.png","oasis:bkg/ezgif-frame-101.png","oasis:bkg/ezgif-frame-102.png","oasis:bkg/ezgif-frame-103.png","oasis:bkg/ezgif-frame-104.png","oasis:bkg/ezgif-frame-105.png","oasis:bkg/ezgif-frame-106.png","oasis:bkg/ezgif-frame-107.png","oasis:bkg/ezgif-frame-108.png","oasis:bkg/ezgif-frame-109.png","oasis:bkg/ezgif-frame-110.png","oasis:bkg/ezgif-frame-111.png","oasis:bkg/ezgif-frame-112.png","oasis:bkg/ezgif-frame-113.png","oasis:bkg/ezgif-frame-114.png","oasis:bkg/ezgif-frame-115.png","oasis:bkg/ezgif-frame-116.png","oasis:bkg/ezgif-frame-117.png","oasis:bkg/ezgif-frame-118.png","oasis:bkg/ezgif-frame-119.png","oasis:bkg/ezgif-frame-120.png","oasis:bkg/ezgif-frame-121.png","oasis:bkg/ezgif-frame-122.png","oasis:bkg/ezgif-frame-123.png","oasis:bkg/ezgif-frame-124.png","oasis:bkg/ezgif-frame-125.png","oasis:bkg/ezgif-frame-126.png","oasis:bkg/ezgif-frame-127.png","oasis:bkg/ezgif-frame-128.png","oasis:bkg/ezgif-frame-129.png","oasis:bkg/ezgif-frame-130.png","oasis:bkg/ezgif-frame-131.png","oasis:bkg/ezgif-frame-132.png","oasis:bkg/ezgif-frame-133.png","oasis:bkg/ezgif-frame-134.png","oasis:bkg/ezgif-frame-135.png","oasis:bkg/ezgif-frame-136.png","oasis:bkg/ezgif-frame-137.png","oasis:bkg/ezgif-frame-138.png","oasis:bkg/ezgif-frame-139.png","oasis:bkg/ezgif-frame-140.png","oasis:bkg/ezgif-frame-141.png","oasis:bkg/ezgif-frame-142.png","oasis:bkg/ezgif-frame-143.png","oasis:bkg/ezgif-frame-144.png","oasis:bkg/ezgif-frame-145.png","oasis:bkg/ezgif-frame-146.png","oasis:bkg/ezgif-frame-147.png","oasis:bkg/ezgif-frame-148.png","oasis:bkg/ezgif-frame-149.png","oasis:bkg/ezgif-frame-150.png","oasis:bkg/ezgif-frame-151.png","oasis:bkg/ezgif-frame-152.png","oasis:bkg/ezgif-frame-153.png","oasis:bkg/ezgif-frame-154.png","oasis:bkg/ezgif-frame-155.png","oasis:bkg/ezgif-frame-156.png","oasis:bkg/ezgif-frame-157.png","oasis:bkg/ezgif-frame-158.png","oasis:bkg/ezgif-frame-159.png","oasis:bkg/ezgif-frame-160.png","oasis:bkg/ezgif-frame-161.png","oasis:bkg/ezgif-frame-162.png","oasis:bkg/ezgif-frame-163.png","oasis:bkg/ezgif-frame-164.png","oasis:bkg/ezgif-frame-165.png","oasis:bkg/ezgif-frame-166.png","oasis:bkg/ezgif-frame-167.png","oasis:bkg/ezgif-frame-168.png","oasis:bkg/ezgif-frame-169.png","oasis:bkg/ezgif-frame-170.png","oasis:bkg/ezgif-frame-171.png","oasis:bkg/ezgif-frame-172.png","oasis:bkg/ezgif-frame-173.png","oasis:bkg/ezgif-frame-174.png","oasis:bkg/ezgif-frame-175.png","oasis:bkg/ezgif-frame-176.png","oasis:bkg/ezgif-frame-177.png","oasis:bkg/ezgif-frame-178.png","oasis:bkg/ezgif-frame-179.png","oasis:bkg/ezgif-frame-180.png","oasis:bkg/ezgif-frame-181.png","oasis:bkg/ezgif-frame-182.png","oasis:bkg/ezgif-frame-183.png","oasis:bkg/ezgif-frame-184.png","oasis:bkg/ezgif-frame-185.png","oasis:bkg/ezgif-frame-186.png","oasis:bkg/ezgif-frame-187.png","oasis:bkg/ezgif-frame-188.png","oasis:bkg/ezgif-frame-189.png","oasis:bkg/ezgif-frame-190.png","oasis:bkg/ezgif-frame-191.png","oasis:bkg/ezgif-frame-192.png","oasis:bkg/ezgif-frame-193.png","oasis:bkg/ezgif-frame-194.png","oasis:bkg/ezgif-frame-195.png","oasis:bkg/ezgif-frame-196.png","oasis:bkg/ezgif-frame-197.png","oasis:bkg/ezgif-frame-198.png","oasis:bkg/ezgif-frame-199.png","oasis:bkg/ezgif-frame-200.png"],
+				"displayDuration" : 1,
+				"fadeDuration" : 10,
+				"blur" : true,
+				"shuffle" : true
+			}
+        }
+    }
+}
